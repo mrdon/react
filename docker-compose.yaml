@@ -9,3 +9,5 @@ services:
      - "3005:3005" # React app will be served on localhost:3005
     environment:
      PORT: 3005
+     SENTRY_AUTH_TOKEN: asdf
+     PUBLIC_DSN_KEY: https://a4b6f9e4552f4b1796fdae5a9a43a82f@o439668.ingest.sentry.io/5406836
